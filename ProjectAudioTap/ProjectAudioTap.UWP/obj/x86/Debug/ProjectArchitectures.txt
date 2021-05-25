@@ -1,0 +1,1 @@
+C:\Users\kirak\source\repos\ProjectAudioTap\ProjectAudioTap\ProjectAudioTap.UWP\ProjectAudioTap.UWP.csproj;x86
