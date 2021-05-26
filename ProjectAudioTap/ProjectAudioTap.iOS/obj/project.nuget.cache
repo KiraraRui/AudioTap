@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "M3KGKujrqkkvDB6lhMGtcuqA1Bol8J3/MZkySQOJyI3nlecE/2Qe2/rchV/YNnOKnEMimAqvokGVGe/vfWa4UQ==",
+  "dgSpecHash": "CR6Oz0ExD61Im+I93skHAd2WJL+7G9RQWunx/4J3Sdz53YH/DPEsazbDbd8jALzTgKKR7mNx+RqGQ3Zz2OpCdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kirak\\source\\repos\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.iOS\\ProjectAudioTap.iOS.csproj",
+  "projectFilePath": "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.iOS\\ProjectAudioTap.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kirak\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\kira0698\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

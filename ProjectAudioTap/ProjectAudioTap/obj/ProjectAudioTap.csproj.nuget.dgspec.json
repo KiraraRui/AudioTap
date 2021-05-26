@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kirak\\source\\repos\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {}
+    "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kirak\\source\\repos\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {
+    "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kirak\\source\\repos\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
+        "projectUniqueName": "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
         "projectName": "ProjectAudioTap",
-        "projectPath": "C:\\Users\\kirak\\source\\repos\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
-        "packagesPath": "C:\\Users\\kirak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kirak\\source\\repos\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap\\obj\\",
+        "projectPath": "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
+        "packagesPath": "C:\\Users\\kira0698\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kirak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kira0698\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
