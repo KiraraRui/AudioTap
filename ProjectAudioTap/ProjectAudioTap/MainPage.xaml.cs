@@ -7,18 +7,24 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using ProjectAudioTap.Views;
 using ProjectAudioTap.Classes;
+using Xamarin.Essentials;
 
 namespace ProjectAudioTap
 {
     public partial class MainPage : ContentPage
     {
+
+
         public MainPage()
         {
             InitializeComponent();
+
+
+
         }
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginView());
+            await Navigation.PushAsync(new GuideView());
         }
     }
 }

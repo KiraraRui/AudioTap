@@ -16,5 +16,10 @@ namespace ProjectAudioTap.Views
         {
             InitializeComponent();
         }
+
+        private async void NavigateButton_ToSpin(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SpinView());
+        }
     }
 }
