@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjectAudioTap.Classes
+namespace ProjectAudioTap.Managers
 {
     class AccountManager
     {

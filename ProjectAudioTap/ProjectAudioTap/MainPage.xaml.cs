@@ -19,8 +19,6 @@ namespace ProjectAudioTap
         {
             InitializeComponent();
 
-
-
         }
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {

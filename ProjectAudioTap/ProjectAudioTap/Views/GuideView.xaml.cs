@@ -15,6 +15,7 @@ namespace ProjectAudioTap.Views
         public GuideView()
         {
             InitializeComponent();
+
         }
 
         private async void NavigateButton_ToSpin(object sender, EventArgs e)

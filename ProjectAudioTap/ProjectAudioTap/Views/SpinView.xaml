@@ -5,9 +5,43 @@
              BackgroundImage="SpinMat.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+            <ImageButton
+  
+            WidthRequest="600"
+            HeightRequest="600"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+           
+            x:Name="wheelSpin"
+            BackgroundColor="Transparent"
+            BorderColor="Transparent"
+            />
+
+                <Button
+            Grid.Column="0"
+            Grid.Row="1"
+            Text="StartSpin"
+            WidthRequest="400"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            CornerRadius="20"
+            Clicked="Button_StartSpin"/>
+
+                </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

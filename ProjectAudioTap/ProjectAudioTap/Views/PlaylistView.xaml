@@ -4,10 +4,37 @@
              x:Class="ProjectAudioTap.Views.PlaylistView"
              BackgroundImage="PlaylistMat.png">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="5,10"
+               BackgroundColor="White">
+
+            <Label Text="Youtube"
+           TextColor="Black"
+           FontSize="22"/>
+
+            <ListView ItemsSource="{Binding YoutubeItems}"
+              HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <StackLayout Orientation="Vertical"
+                         Padding="10,10,10,20">
+                                <Label Text="{Binding ChannelTitle}"
+                     TextColor="Maroon"
+                     FontSize="22"/>
+                               
+                                
+                                <Label Text="{Binding Title}"
+                     TextColor="Black"
+                     FontSize="16"/>
+                                <Image Source="{Binding HighThumbnailUrl}"
+                     HeightRequest="200"/>
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

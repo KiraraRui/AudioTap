@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "DXkyrzYtMd9UIDpJWk7K/WxdBmBqaFoBbbsFuYbKoMscpWQbzZe67nQ7ueT1zRFlnXH33lLQfmaqWEWgYr9rbQ==",
+  "dgSpecHash": "gRIjNWuCYr1eOT4nq2OejQ3H5I//S69wiIv3/Gpb3FgLjOWd9Rh+bOo94CFWxPXKiLW35Hs+dPaOeTIExGmESg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kira0698\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
+  "projectFilePath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kira0698\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\kira0698\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\kira0698\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\google.apis\\1.51.0\\google.apis.1.51.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\google.apis.auth\\1.51.0\\google.apis.auth.1.51.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\google.apis.core\\1.51.0\\google.apis.core.1.51.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\google.apis.youtube.v3\\1.51.0.2294\\google.apis.youtube.v3.1.51.0.2294.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
