@@ -9,10 +9,12 @@ using ProjectAudioTap.Views;
 using ProjectAudioTap.Classes;
 using Xamarin.Essentials;
 
+
 namespace ProjectAudioTap
 {
     public partial class MainPage : ContentPage
     {
+
 
 
         public MainPage()
@@ -20,7 +22,7 @@ namespace ProjectAudioTap
             InitializeComponent();
 
         }
-        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        private async void LoginClick(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new GuideView());
         }

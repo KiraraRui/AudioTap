@@ -4,9 +4,7 @@
              x:Class="ProjectAudioTap.MainPage"
              BackgroundImageSource="LoginMat.png">
 
-    <Grid
-        RowSpacing="0"
-        ColumnSpacing="0">
+    <Grid  RowSpacing="0"  ColumnSpacing="0">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="3*" />
@@ -14,53 +12,24 @@
             <RowDefinition Height="6*" />
         </Grid.RowDefinitions>
 
-        <BoxView 
-            Grid.Row="0"/>
+        <BoxView Grid.Row="0"/>
+        <Label   Grid.Row="0"  TextColor="White"    Text="LOGIN"  FontSize="Large"   HorizontalOptions="Center"    VerticalOptions="Center" />
 
-
-        <Label 
-            Grid.Row="0"
-            TextColor="White"
-            Text="LOGIN"
-            FontSize="Large"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
-
-        <StackLayout                
-            Grid.Row="1"
-            VerticalOptions="Fill"
-            HorizontalOptions="Center"
-            Spacing="15">
+        <StackLayout  Grid.Row="1"  VerticalOptions="Fill"  HorizontalOptions="Center"  Spacing="15">
 
             <StackLayout HorizontalOptions="Center" Spacing="5">
-                <Label 
-                    Text="Email:"
-                    TextColor="White"/>
-                <Entry 
-                    Text="{ Binding Email }" 
-                    Keyboard="Email"
-                    WidthRequest="300" 
-                    TextColor="White"/>
+                <Label   Text="Email:"  TextColor="White"/>
+                <Entry    Text="{ Binding Email }"   Keyboard="Email"  WidthRequest="300"   TextColor="White"/>
             </StackLayout>
 
             <StackLayout HorizontalOptions="Center" Spacing="5">
-                <Label 
-                    Text="Password:" 
-                    TextColor="White"/>
-                <Entry 
-                    Text="{ Binding Password }"
-                    WidthRequest="300"
-                    IsPassword="True"
-                    TextColor="White"/>
+                <Label    Text="Password:"   TextColor="White"/>
+                <Entry    Text="{ Binding Password }"  WidthRequest="300"  IsPassword="True"   TextColor="White"/>
             </StackLayout>
         </StackLayout>
 
         <StackLayout
-            Grid.Row="2"
-            VerticalOptions="End"
-            HorizontalOptions="Start"
-            Margin="10,0,0,15"
-            Spacing="15">
+            Grid.Row="2"  VerticalOptions="End"  HorizontalOptions="Start" Margin="10,0,0,15"  Spacing="15">
             <Label Text="Forgotten Password?" TextColor="White" >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer NumberOfTapsRequired="1" Command="{ Binding ForgotPasswordCommand }" />
@@ -68,16 +37,10 @@
             </Label>
         </StackLayout>
 
-        <Button
-            Grid.Row="2"
-            Text="LOGIN"
-            WidthRequest="400"
-            HorizontalOptions="End"
-            VerticalOptions="End"
-            Margin="150,150"
-            CornerRadius="20"
-            Clicked="NavigateButton_OnClicked"/>
-            
-        
+
+
+        <Button Text="LoginGoogle" Clicked="LoginClick" Image="GOOGLE.png" HeightRequest="50" Grid.Row="2" WidthRequest="400" CornerRadius="20" HorizontalOptions="End" VerticalOptions="End" Margin="50,150" />
+
+
     </Grid>
 </ContentPage>

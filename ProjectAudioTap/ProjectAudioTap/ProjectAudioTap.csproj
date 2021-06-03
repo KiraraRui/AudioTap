@@ -40,7 +40,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\GuideView.xaml">
+    <Compile Update="Views\Guide\GuideView1.xaml.cs">
+      <DependentUpon>GuideView1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Guide\GuideView2.xaml.cs">
+      <DependentUpon>GuideView2.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Guide\GuideView1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\PlaylistView.xaml">

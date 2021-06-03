@@ -101,6 +101,10 @@ namespace ProjectAudioTap.Views
 
         }
 
+        private async void Button_ToPlaylist(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PlaylistView());
+        }
 
     }
 }

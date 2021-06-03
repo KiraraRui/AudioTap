@@ -9,39 +9,31 @@
             <Grid>
 
                 <Grid.RowDefinitions>
+                <RowDefinition Height="250" />
                 <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
 
-            <ImageButton
-  
-            WidthRequest="600"
-            HeightRequest="600"
-            HorizontalOptions="End"
-            VerticalOptions="End"
-           
-            x:Name="wheelSpin"
-            BackgroundColor="Transparent"
-            BorderColor="Transparent"
-            />
+                <ImageButton Grid.ColumnSpan="2" Grid.Row="0" WidthRequest="600" HeightRequest="600" HorizontalOptions="End" VerticalOptions="End"
+            x:Name="wheelSpin" BackgroundColor="Transparent" BorderColor="Transparent"/>
 
-                <Button
-            Grid.Column="0"
-            Grid.Row="1"
-            Text="StartSpin"
-            WidthRequest="400"
-            HorizontalOptions="End"
-            VerticalOptions="End"
-            CornerRadius="20"
-            Clicked="Button_StartSpin"/>
+                <Label Grid.ColumnSpan="2" Grid.Row="1" Text="Winner :" TextColor="White" Margin="150,-20" FontSize="30"></Label>
+                <Label Grid.ColumnSpan="2" Grid.Row="1" VerticalTextAlignment="Center" Text="link here" TextColor="White" Margin="150,20" FontSize="30"></Label>
 
-                </Grid>
+
+                <Button Grid.ColumnSpan="2" Grid.Row="2" Text="StartSpin"  CornerRadius="20" Clicked="Button_StartSpin" Margin="50,20"/>
+
+                <Button Grid.ColumnSpan="2" Grid.Row="3" Text="ToPlaylist"  CornerRadius="20" Clicked="Button_ToPlaylist" Margin="50,20"/>
+
+                <Button Grid.Column="1" Grid.Row="0" Text="Logud"  CornerRadius="20" Margin="110, 50, 20, 160" /> <!--on click logout and send to login page-->
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

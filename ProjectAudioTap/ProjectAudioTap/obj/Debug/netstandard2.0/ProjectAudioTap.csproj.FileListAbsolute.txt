@@ -49,4 +49,4 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap\o
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap\obj\Debug\netstandard2.0\ProjectAudioTap.dll
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap\obj\Debug\netstandard2.0\ref\ProjectAudioTap.dll
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap\obj\Debug\netstandard2.0\ProjectAudioTap.pdb
-C:\Users\kirak\source\repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap\obj\Debug\netstandard2.0\ProjectAudioTap.csproj.AssemblyReference.cache
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap\obj\Debug\netstandard2.0\ProjectAudioTap.csproj.AssemblyReference.cache

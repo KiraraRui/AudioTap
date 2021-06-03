@@ -2424,11 +2424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.Android\\ProjectAudioTap.Android.csproj",
+      "projectUniqueName": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.Android\\ProjectAudioTap.Android.csproj",
       "projectName": "ProjectAudioTap.Android",
-      "projectPath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.Android\\ProjectAudioTap.Android.csproj",
+      "projectPath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.Android\\ProjectAudioTap.Android.csproj",
       "packagesPath": "C:\\Users\\kirak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.Android\\obj\\",
+      "outputPath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2451,8 +2451,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {
-              "projectPath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj"
+            "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {
+              "projectPath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj"
             }
           }
         }

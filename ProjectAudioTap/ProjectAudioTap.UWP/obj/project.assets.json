@@ -9837,11 +9837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\ProjectAudioTap.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\ProjectAudioTap.UWP.csproj",
       "projectName": "ProjectAudioTap.UWP",
-      "projectPath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\ProjectAudioTap.UWP.csproj",
+      "projectPath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\ProjectAudioTap.UWP.csproj",
       "packagesPath": "C:\\Users\\kirak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\obj\\",
+      "outputPath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9865,8 +9865,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {
-              "projectPath": "C:\\Users\\kirak\\source\\repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj"
+            "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj": {
+              "projectPath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj"
             }
           }
         }

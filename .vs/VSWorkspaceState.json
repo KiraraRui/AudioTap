@@ -3,8 +3,9 @@
     "",
     "\\ProjectAudioTap",
     "\\ProjectAudioTap\\ProjectAudioTap",
+    "\\ProjectAudioTap\\ProjectAudioTap\\Managers",
     "\\ProjectAudioTap\\ProjectAudioTap\\Views"
   ],
-  "SelectedNode": "\\ProjectAudioTap\\ProjectAudioTap\\Views\\SpinView.xaml.cs",
+  "SelectedNode": "\\ProjectAudioTap\\ProjectAudioTap\\Managers\\YoutubeDataApi.cs",
   "PreviewInSolutionExplorer": false
 }
