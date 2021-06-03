@@ -4,8 +4,9 @@
     "\\ProjectAudioTap",
     "\\ProjectAudioTap\\ProjectAudioTap",
     "\\ProjectAudioTap\\ProjectAudioTap\\Managers",
-    "\\ProjectAudioTap\\ProjectAudioTap\\Views"
+    "\\ProjectAudioTap\\ProjectAudioTap\\Views",
+    "\\ProjectAudioTap\\ProjectAudioTap\\Views\\Guide"
   ],
-  "SelectedNode": "\\ProjectAudioTap\\ProjectAudioTap\\Managers\\YoutubeDataApi.cs",
+  "SelectedNode": "\\ProjectAudioTap\\ProjectAudioTap\\Views\\Guide",
   "PreviewInSolutionExplorer": false
 }

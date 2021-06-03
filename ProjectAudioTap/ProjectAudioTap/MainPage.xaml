@@ -38,8 +38,8 @@
         </StackLayout>
 
 
-
         <Button Text="LoginGoogle" Clicked="LoginClick" Image="GOOGLE.png" HeightRequest="50" Grid.Row="2" WidthRequest="400" CornerRadius="20" HorizontalOptions="End" VerticalOptions="End" Margin="50,150" />
+
 
 
     </Grid>

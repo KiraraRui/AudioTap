@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iS5vGmxIn2vQE+lW6Y8bdB1/8nSUG8qi5Elvnq9N4G1+1phq7PGkQNeTcdgJ7flzlPFF8KgIhGN6d2JumkRepA==",
+  "dgSpecHash": "G1vGBe+uZsn4PO3bIcD2M9JJWZ52Hl+HfJ9UfCVNybg6VC96GV888pTTKDCS0s6P5I3U6tD4ZZYn+ebwHLqZJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap\\ProjectAudioTap.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\kirak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\kirak\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\kirak\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\xamarin.auth\\1.7.0\\xamarin.auth.1.7.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

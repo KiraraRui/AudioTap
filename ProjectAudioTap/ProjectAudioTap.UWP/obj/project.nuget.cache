@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zq6Via/85VizU0yBOqKEspcVssB1+5NJcjAg1puMTNCcqxqT/X4LQ5Td5FW2gxM4W+wCA1HL7/xDVXgBUIjrNQ==",
+  "dgSpecHash": "zfsIQoudQhaJlzARiXuD8/+WyI9j49c5wdfmOHIqmY1UOburiZ0KiG9CsDLsYe2MVPylyz9WnRUK8KOE5y/0DA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kirak\\Source\\Repos\\KiraraRui\\AudioTap\\ProjectAudioTap\\ProjectAudioTap.UWP\\ProjectAudioTap.UWP.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\kirak\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.12\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
     "C:\\Users\\kirak\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\kirak\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\kirak\\.nuget\\packages\\xamarin.auth\\1.7.0\\xamarin.auth.1.7.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
