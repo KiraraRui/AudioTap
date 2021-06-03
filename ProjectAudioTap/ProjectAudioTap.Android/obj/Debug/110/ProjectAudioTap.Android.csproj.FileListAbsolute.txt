@@ -1400,7 +1400,6 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.A
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.ViewPager2.dll
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.ViewPager2.pdb
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.dll
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.dll.mdb
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Essentials.dll
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Essentials.pdb
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Forms.Core.dll
@@ -1805,3 +1804,4 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.A
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.pdb

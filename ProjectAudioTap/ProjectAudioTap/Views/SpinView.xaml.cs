@@ -30,7 +30,6 @@ namespace ProjectAudioTap.Views
 
         }
 
-
         private async void Button_wheelSpin()
         {
             var buttonSpinStuff = (ImageButton)wheelSpin;
