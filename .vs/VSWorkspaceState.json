@@ -4,9 +4,8 @@
     "\\ProjectAudioTap",
     "\\ProjectAudioTap\\ProjectAudioTap",
     "\\ProjectAudioTap\\ProjectAudioTap\\Managers",
-    "\\ProjectAudioTap\\ProjectAudioTap\\Views",
-    "\\ProjectAudioTap\\ProjectAudioTap\\Views\\Guide"
+    "\\ProjectAudioTap\\ProjectAudioTap\\Views"
   ],
-  "SelectedNode": "\\ProjectAudioTap\\ProjectAudioTap\\Views\\Guide",
+  "SelectedNode": "\\ProjectAudioTap\\ProjectAudioTap\\Views\\SpinView.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

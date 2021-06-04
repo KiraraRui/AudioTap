@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectAudioTap.Views.GuideView1"
+             BackgroundImage="Guide1Mat.png">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Next goes to next page in guide-->
+                <Button Grid.Column="0" Grid.Row="3"  Text="Next"  CornerRadius="20" Clicked="Button_ToNext" Margin="20,50" BackgroundColor="#A98467" TextColor="White"/>
+
+                <!--Skip goes to spin view-->
+                <Button Grid.Column="2" Grid.Row="3" Text="Skip"  CornerRadius="20" Clicked="Button_ToSkip" Margin="20,50" BackgroundColor="#A98467" TextColor="White" />
+                
+            </Grid>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

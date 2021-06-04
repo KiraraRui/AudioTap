@@ -24,7 +24,7 @@ namespace ProjectAudioTap
         }
         private async void LoginClick(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SpinView());
+            await Navigation.PushAsync(new GuideView1());
         }
     }
 }

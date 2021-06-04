@@ -1412,9 +1412,7 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.A
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Google.Android.Material.dll
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Google.Android.Material.pdb
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Google.Guava.ListenableFuture.dll
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\jl\265480d7-4c28-489f-a5df-01cf8ac2c667.jar
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\proguard\14a9dabd-ad9e-42dd-b488-698b87b35164.cfg
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_AndroidXJetifyProguardRules.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\_AndroidXJetifyProguardRules.jetify
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_AndroidXCecilfy.stamp
@@ -1804,4 +1802,5 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.A
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.pdb
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\jl\3633f4ed-1343-4353-8aa5-5b442c9ff1e7.jar
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\proguard\cf8be7e0-b17a-4fb4-9fb6-6de48843051f.cfg

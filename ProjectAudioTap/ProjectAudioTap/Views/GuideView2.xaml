@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectAudioTap.Views.GuideView2"
+             BackgroundImage="Guide2Mat.png">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Back-->
+                <Button Grid.Column="0" Grid.Row="3" Text="Back"  CornerRadius="20" Margin="15,50" Clicked="Button_ToGuide1" BackgroundColor="#A98467" TextColor="White"/>
+                
+                <!--This button goes to spin-->
+                <Button Grid.Column="2" Grid.Row="3" Text="To Spin"  CornerRadius="20" Clicked="Button_ToSpinView" Margin="15,50" BackgroundColor="#A98467" TextColor="White"/>
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

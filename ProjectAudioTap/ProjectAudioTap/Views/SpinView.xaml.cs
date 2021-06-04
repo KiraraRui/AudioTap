@@ -24,6 +24,7 @@ namespace ProjectAudioTap.Views
             InitializeComponent();
 
             wheelSpin.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.wheel.png");
+            wheelSpinchooser.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.chooser.png");
             tokenSource = new CancellationTokenSource();
             ct = tokenSource.Token;
             wheelSpinTask = new Task(Button_wheelSpin, tokenSource.Token); // .ContinueWith( wheelSpinTask => { if (!wheelSpinTask.IsCanceled && wheelSpinTask.IsFaulted) { } });
@@ -105,6 +106,15 @@ namespace ProjectAudioTap.Views
             await Navigation.PushAsync(new PlaylistView());
         }
 
+        private async void Button_ToGuide(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GuideView1());
+        }
+
+        private async void SpinChooser()
+        {
+            var buttonSpinStuff = (ImageButton)wheelSpinchooser;
+        }
     }
 }
 
