@@ -22,9 +22,9 @@
 
 
                 <ImageButton Grid.ColumnSpan="2" Grid.Row="0" WidthRequest="600" HeightRequest="600" HorizontalOptions="End" VerticalOptions="End"
-            x:Name="wheelSpin" BackgroundColor="Transparent" BorderColor="Transparent"/>
+            x:Name="wheelSpin" BackgroundColor="Transparent" BorderColor="Transparent" />
 
-                <ImageButton Grid.ColumnSpan="2" Grid.Row="0" WidthRequest="400" HeightRequest="400" x:Name="wheelSpinchooser" BackgroundColor="Transparent" BorderColor="Transparent" Margin="50,20,0,0"/>
+                <ImageButton Grid.ColumnSpan="2" Grid.Row="0" WidthRequest="600" HeightRequest="600" x:Name="SpinChooser" BackgroundColor="Transparent" BorderColor="Transparent" Margin="50,20,0,0"/>
 
                 <Label Grid.ColumnSpan="2" Grid.Row="1" Text="Winner :" TextColor="White" Margin="150,-20" FontSize="30"></Label>
                 <Label Grid.ColumnSpan="2" Grid.Row="1" VerticalTextAlignment="Center" Text="link here" TextColor="White" Margin="150,20" FontSize="30"></Label>

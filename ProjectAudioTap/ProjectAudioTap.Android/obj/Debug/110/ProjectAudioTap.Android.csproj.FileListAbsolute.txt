@@ -1802,5 +1802,6 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.A
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\jl\3633f4ed-1343-4353-8aa5-5b442c9ff1e7.jar
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\proguard\cf8be7e0-b17a-4fb4-9fb6-6de48843051f.cfg
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.dll.mdb
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\jl\4c5763d6-da5f-4390-94c0-739f7a412cc9.jar
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\proguard\d93a5409-3621-41e8-9c93-8ef11bcfef5a.cfg

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using ProjectAudioTap.Classes;
+using ProjectAudioTap.Views;
 using ProjectAudioTap.Managers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -24,7 +25,7 @@ namespace ProjectAudioTap.Views
             InitializeComponent();
 
             wheelSpin.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.wheel.png");
-            wheelSpinchooser.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.chooser.png");
+            SpinChooser.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.chooser.png");
             tokenSource = new CancellationTokenSource();
             ct = tokenSource.Token;
             wheelSpinTask = new Task(Button_wheelSpin, tokenSource.Token); // .ContinueWith( wheelSpinTask => { if (!wheelSpinTask.IsCanceled && wheelSpinTask.IsFaulted) { } });
@@ -33,6 +34,7 @@ namespace ProjectAudioTap.Views
 
         private async void Button_wheelSpin()
         {
+
             var buttonSpinStuff = (ImageButton)wheelSpin;
 
             // if already stopped before started we are telling it to do NOTHING here just the way we like it ah ha ah ha
@@ -65,37 +67,38 @@ namespace ProjectAudioTap.Views
             }
         }
 
-      
-         //start and stop
-        private async void Button_StartSpin(object sender, EventArgs e)
+
+        //start and stop
+        private void Button_StartSpin(object sender, EventArgs e)
         {
             if (wheelSpinTask.Status == TaskStatus.Created)
             {
 
-            //Button_wheelSpin();
-            wheelSpinTask.Start();
+                //Button_wheelSpin();
+                wheelSpinTask.Start();
 
             }
 
 
             //(wheelSpinTask.Status == TaskStatus.Running)
-            else
+            else // the code within crashes the application if clicked on button again
             {
 
-                // Just continue on this thread, or await with try-catch:
-                try
-                {
-                   tokenSource.Cancel();
-                    await wheelSpinTask;
-                }
-                catch (OperationCanceledException)
-                {
-                   
-                }
-                finally
-                {
-                    tokenSource.Dispose();
-                }
+
+                //// Just continue on this thread, or await with try-catch:
+                //try
+                //{
+
+                //    await wheelSpinTask;
+                //}
+                //catch (OperationCanceledException)
+                //{
+
+                //}
+                //finally
+                //{
+                //    tokenSource.Dispose();
+                //}
 
             }
 
@@ -111,9 +114,10 @@ namespace ProjectAudioTap.Views
             await Navigation.PushAsync(new GuideView1());
         }
 
-        private async void SpinChooser()
+        private async void WheelSpinChooser()
         {
-            var buttonSpinStuff = (ImageButton)wheelSpinchooser;
+            var buttonSpinStuff = (ImageButton)SpinChooser;
+           
         }
     }
 }
