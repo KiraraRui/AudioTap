@@ -15,109 +15,110 @@ namespace ProjectAudioTap.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SpinView : ContentPage
     {
+        Button spinButton;
+        Label playlistWinnerLabel;
         Task wheelSpinTask;
         CancellationTokenSource tokenSource;
         CancellationToken ct;
 
+
         //new Task(async() => await Button_wheelSpin());
         public SpinView()
         {
-            InitializeComponent();
 
+            InitializeComponent();
             wheelSpin.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.wheel.png");
             SpinChooser.Source = ImageResourceExtension.GetImageSource("ProjectAudioTap.Assets.chooser.png");
             tokenSource = new CancellationTokenSource();
             ct = tokenSource.Token;
-            wheelSpinTask = new Task(Button_wheelSpin, tokenSource.Token); // .ContinueWith( wheelSpinTask => { if (!wheelSpinTask.IsCanceled && wheelSpinTask.IsFaulted) { } });
+           // wheelSpinTask = new Task(Button_wheelSpin, tokenSource.Token); // .ContinueWith( wheelSpinTask => { if (!wheelSpinTask.IsCanceled && wheelSpinTask.IsFaulted) { } });
+            playlistWinnerLabel = this.FindByName<Label>("playlistWinner");
+            spinButton = this.FindByName<Button>("mfSpinButton");
 
         }
 
-        private async void Button_wheelSpin()
+        private async void SpinWheel()
         {
-
             var buttonSpinStuff = (ImageButton)wheelSpin;
 
-            // if already stopped before started we are telling it to do NOTHING here just the way we like it ah ha ah ha
-
-                // Poll on this property if you have to do
-                // other cleanup before throwing.
-                if (ct.IsCancellationRequested)
-                {
-                // Clean up here, then...
-                ct.ThrowIfCancellationRequested();
-                }
-
-                // run that bitch
-            while (true)
+            while (!ct.IsCancellationRequested)
             {
 
-                for (int i = 1; i < 7; i++)
-                {
+                //for (int i = 1; i < 9; i++)
+                //{
+                   // if (buttonSpinStuff.Rotation >= 360f) buttonSpinStuff.Rotation = 0;
+                    await buttonSpinStuff.RotateTo( (360 * 2), 2000, Easing.SinInOut);
+                //}
 
-                        if (ct.IsCancellationRequested)
-                        {
-                            ct.ThrowIfCancellationRequested();
-                        }
-
-                        //ITS ALIVE......ITS Alliiiveeeee #IT-SPINS
-                   if (buttonSpinStuff.Rotation >= 360f) buttonSpinStuff.Rotation = 0;
-                    await buttonSpinStuff.RotateTo(i * (360 / 6), 1000, Easing.Linear);
-
-                }
             }
+
         }
 
 
         //start and stop
         private void Button_StartSpin(object sender, EventArgs e)
         {
-            if (wheelSpinTask.Status == TaskStatus.Created)
-            {
-
-                //Button_wheelSpin();
-                wheelSpinTask.Start();
-
-            }
-
-
-            //(wheelSpinTask.Status == TaskStatus.Running)
-            else // the code within crashes the application if clicked on button again
-            {
-
-
-                //// Just continue on this thread, or await with try-catch:
-                //try
-                //{
-
-                //    await wheelSpinTask;
-                //}
-                //catch (OperationCanceledException)
-                //{
-
-                //}
-                //finally
-                //{
-                //    tokenSource.Dispose();
-                //}
-
-            }
-
+                SpinHandlerAsync();
+          
         }
+
+
 
         private async void Button_ToPlaylist(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new PlaylistView());
         }
 
+
+
         private async void Button_ToGuide(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new GuideView1());
         }
 
+
+
         private async void WheelSpinChooser()
         {
             var buttonSpinStuff = (ImageButton)SpinChooser;
-           
+
+        }
+
+
+
+        private async Task SpinHandlerAsync()
+        {
+            ToggleSpinButton();
+            Task.Run(() => SpinWheel(), ct);
+            await Task.Run(() => Task.Delay(4500));
+
+            string selectedPlaylistTitle = SelectRandomPlaylist();
+            UpdateLabel(selectedPlaylistTitle);
+
+            ToggleSpinButton();
+            tokenSource.Cancel();
+        }
+
+
+
+        private void UpdateLabel(string selectedPlaylistTitle)
+        {
+            playlistWinnerLabel.Text = selectedPlaylistTitle;
+        }
+
+
+
+        private string SelectRandomPlaylist()
+        {
+            return "Winner-name";
+        }
+
+
+
+        private void ToggleSpinButton()
+        {
+            spinButton.IsEnabled = !spinButton.IsEnabled;
+
         }
     }
 }

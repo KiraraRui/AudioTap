@@ -26,10 +26,11 @@
 
                 <ImageButton Grid.ColumnSpan="2" Grid.Row="0" WidthRequest="600" HeightRequest="600" x:Name="SpinChooser" BackgroundColor="Transparent" BorderColor="Transparent" Margin="50,20,0,0"/>
 
-                <Label Grid.ColumnSpan="2" Grid.Row="1" Text="Winner :" TextColor="White" Margin="150,-20" FontSize="30"></Label>
-                <Label Grid.ColumnSpan="2" Grid.Row="1" VerticalTextAlignment="Center" Text="link here" TextColor="White" Margin="150,20" FontSize="30"></Label>
+                <Label Grid.ColumnSpan="2" Grid.Row="1" Text="Winner :" TextColor="White" Margin="20,-20" FontSize="30" HorizontalTextAlignment="Center"></Label>
+                <Label Grid.ColumnSpan="2" Grid.Row="1"  TextColor="White" Margin="20,20" HorizontalTextAlignment="Center" FontSize="30" x:Name="playlistWinner"></Label>
 
-                <Button Grid.ColumnSpan="2" Grid.Row="2" Text="StartSpin"  CornerRadius="20" Clicked="Button_StartSpin" Margin="50,20" BackgroundColor="#E09F3E" TextColor="White" />
+                <Button Grid.ColumnSpan="2" Grid.Row="2" Text="StartSpin"  CornerRadius="20" Clicked="Button_StartSpin" x:Name="mfSpinButton" Margin="50,20" BackgroundColor="#E09F3E" TextColor="White" 
+                  IsEnabled="{Binding myBool}"      />
 
                 <Button Grid.ColumnSpan="2" Grid.Row="3" Text="ToPlaylist"  CornerRadius="20" Clicked="Button_ToPlaylist" Margin="50,20" BackgroundColor="#E09F3E" TextColor="White" />
 

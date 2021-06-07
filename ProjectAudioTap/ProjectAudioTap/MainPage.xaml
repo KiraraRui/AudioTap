@@ -24,8 +24,9 @@
 
             <StackLayout HorizontalOptions="Center" Spacing="5">
                 <Label    Text="Password:"   TextColor="White"/>
-                <Entry    Text="{ Binding Password }"  WidthRequest="300"  IsPassword="True"   TextColor="White"/>
+                <Entry    Text="{ Binding Password }" Keyboard="Plain" WidthRequest="300" IsPassword="True"   TextColor="White"/>
             </StackLayout>
+            
         </StackLayout>
 
         <StackLayout
