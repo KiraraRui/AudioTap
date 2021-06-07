@@ -7,15 +7,15 @@
     <Grid  RowSpacing="0"  ColumnSpacing="0">
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="6*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <BoxView Grid.Row="0"/>
         <Label   Grid.Row="0"  TextColor="White" Text="LOGIN"  FontSize="30"   HorizontalOptions="Center"    VerticalOptions="Center" />
 
-        <StackLayout  Grid.Row="1"  VerticalOptions="Fill"  HorizontalOptions="Center"  Spacing="15">
+        <StackLayout  Grid.RowSpan="2"  VerticalOptions="Fill"  HorizontalOptions="Center"  Spacing="15" Margin="0,180,0,0">
 
             <StackLayout HorizontalOptions="Center" Spacing="5" >
                 <Label   Text="Email:"  TextColor="White"/>
@@ -24,7 +24,7 @@
 
             <StackLayout HorizontalOptions="Center" Spacing="5">
                 <Label    Text="Password:"   TextColor="White"/>
-                <Entry    Text="{ Binding Password }" Keyboard="Plain" WidthRequest="300" IsPassword="True"   TextColor="White"/>
+                <Entry    Text="{ Binding Password }"  WidthRequest="300" IsPassword="True"   TextColor="White"/>
             </StackLayout>
             
         </StackLayout>
@@ -39,7 +39,7 @@
         </StackLayout>
 
 
-        <Button Text="Login" Clicked="LoginClick" Image="GOOGLE.png" HeightRequest="50" Grid.Row="2" WidthRequest="400" CornerRadius="20" HorizontalOptions="End" VerticalOptions="End" Margin="50,150" BackgroundColor="#A98467" TextColor="white" FontSize="25"/>
+        <Button Text="Login" Clicked="LoginClick" Image="GOOGLE.png" HeightRequest="50" Grid.Row="2" WidthRequest="400" CornerRadius="20" HorizontalOptions="Center" VerticalOptions="Center" Margin="50,0,50,150" BackgroundColor="#A98467" TextColor="white" FontSize="25"/>
 
 
 
