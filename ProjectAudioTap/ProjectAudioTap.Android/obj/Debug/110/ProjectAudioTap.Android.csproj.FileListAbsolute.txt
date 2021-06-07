@@ -1803,6 +1803,6 @@ C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.A
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\res\drawable\logo.png
-C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.dll.mdb
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\jl\92b275e2-92d0-40ed-a7b4-07a49c316238.jar
 C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\androidx\proguard\0992d7ad-3592-46bc-855b-ac873b86d65c.cfg
+C:\Users\kirak\Source\Repos\KiraraRui\AudioTap\ProjectAudioTap\ProjectAudioTap.Android\obj\Debug\110\android\assets\Xamarin.Auth.pdb

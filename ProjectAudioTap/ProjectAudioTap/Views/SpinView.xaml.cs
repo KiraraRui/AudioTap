@@ -120,6 +120,11 @@ namespace ProjectAudioTap.Views
             spinButton.IsEnabled = !spinButton.IsEnabled;
 
         }
+
+        private async void Button_ToLogin(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }
 
